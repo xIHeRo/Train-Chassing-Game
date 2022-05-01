@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `d:/EECE/EECE 2nd Year/Second Term/Embedded Systems/Snake Game/SFML Project'
+g++ -I src/include -c main.cpp
+g++ main.o -o main -L src/lib -l sfml-graphics -l sfml-window -l sfml-system
+make.exe: Leaving directory `d:/EECE/EECE 2nd Year/Second Term/Embedded Systems/Snake Game/SFML Project'
+ 
